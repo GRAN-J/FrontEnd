@@ -1,0 +1,365 @@
+/*This is the font of the page*/
+@import url(//db.onlinewebfonts.com/c/2970bdb341a4738a457b33d3a426c855?family=Noyh);
+* {
+  font-family: "Noyh";
+  src: url("//db.onlinewebfonts.com/t/2970bdb341a4738a457b33d3a426c855.eot");
+  src: url("//db.onlinewebfonts.com/t/2970bdb341a4738a457b33d3a426c855.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/2970bdb341a4738a457b33d3a426c855.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/2970bdb341a4738a457b33d3a426c855.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/2970bdb341a4738a457b33d3a426c855.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/2970bdb341a4738a457b33d3a426c855.svg#Noyh")
+      format("svg");
+}
+/*with this delete the margins*/
+body {
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  margin: 0;
+}
+/* Class for titles */
+.titles {
+  color: #1f3564;
+  font-size: 60px;
+}
+/* Class for subtitles */
+.subtitles {
+  font-weight: bold;
+  color: #1f3564;
+  font-size: 47px;
+}
+/* Class for paragraphs */
+.paragraphs {
+  font-weight: 300;
+  color: #56585e;
+  font-size: 20px;
+}
+.paragraphs2 {
+  font-weight: 300;
+  color: #1f3564;
+  font-size: 20px;
+}
+.paragraphs2grey {
+  font-weight: 300;
+  color: #56585e;
+  font-size: 25px;
+}
+.subtitles2 {
+  color: #1f3564;
+  font-size: 25px;
+}
+.button {
+  border-radius: 5px;
+  border: #2f4fcd;
+  background-color: #2f4fcd;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-size: 19px;
+  width: 120px;
+  height: 50px;
+}
+.icons1 {
+  display: flex;
+  align-items: center;
+  width: 250px;
+}
+.icon {
+  margin: 10px;
+}
+
+#shadow {
+  padding: 4px;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 1px #2f4fcd,
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+/*class for the container of the navbar with a gradian*/
+.container-fondo {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 30%,
+    rgba(255, 255, 255, 1) 47%,
+    rgba(240, 253, 254, 1) 50%,
+    rgba(227, 250, 251, 1) 100%
+  );
+  background-size: cover;
+}
+/*class for the navbar*/
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  padding: 10px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+/*class for navbar left*/
+.navbar-left {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+/*class for nabvar right*/
+.navbar-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+/*class for the navbar item*/
+.navbar-item {
+  padding-left: 100px;
+  cursor: pointer;
+  font-size: 25px;
+  color: gray;
+}
+/*class for the logo in navbar*/
+.navbar-left .navbar-item {
+  color: #3468d9;
+  font-size: 35px;
+  padding-left: 150px;
+}
+/*class for the button in the top right in the navbar*/
+.navbar-item-botton {
+  margin-right: 60px;
+  border-radius: 5px;
+  border: #2f4fcd;
+  background-color: #2f4fcd;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-size: 25px;
+  width: 190px;
+  height: 60px;
+}
+/*class the first container with the doctor picture*/
+.container {
+  position: relative;
+  height: 800px;
+  display: flex;
+  margin-top: 5px;
+  justify-content: center;
+  justify-content: space-between;
+}
+/*class for the shadows*/
+#shadow {
+  padding: 4px;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 1px #2f4fcd,
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+/*class for the first text next to the doctor picture */
+.textcontainer {
+  background-image: url(/imagenes//fondo2.1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 5%;
+  display: flex;
+  padding-left: 12%;
+  justify-items: center;
+  flex-direction: column;
+}
+/*class for the picture of the doctor organizing the container*/
+.imgdoctor {
+  display: flex;
+  height: 100%;
+}
+/*class for the picture of the doctor */
+.imgdoctor img {
+  height: 100%;
+  width: 100%;
+}
+.box0 {
+  display: flex;
+  align-items: center;
+  width: 400px;
+}
+.textcontainer2 {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  margin-bottom: 70px;
+}
+/*class for the box close to the picture of the doctor*/
+.box1 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  top: 600px;
+  left: 0;
+  right: 645px;
+  margin-left: 220px;
+  width: 1000px;
+  height: 130px;
+  box-shadow: -13px 13px 90px #90c9f8;
+  opacity: 0.95;
+  backdrop-filter: blur(10px);
+}
+
+.box1-1 {
+  display: flex;
+  flex-direction: column;
+}
+.box1-1 h2 {
+  padding-left: 40px;
+}
+
+.box2 {
+  display: flex;
+  align-items: center;
+}
+/*class container fot the vaccines */
+.vaccines {
+  background-image: url(imagenes\fondo1.png);
+  background-repeat: no-repeat;
+  background-size: 200px;
+  background-size: cover;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  margin-left: 11%;
+  margin-right: 11%;
+}
+/*class container for the second text under the vaccines */
+.container2 {
+  padding-left: 12%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+.containercards {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 11%;
+  margin-right: 11%;
+  margin-bottom: 11%;
+}
+.card {
+  border-radius: 20px;
+  background: #ffffff;
+  border: 3px solid #edf0f3;
+  margin: 10px;
+  align-items: center;
+  padding: 40px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  width: 250px;
+  height: 300px;
+  justify-content: space-around;
+}
+
+#cardselected {
+  border: none;
+  box-shadow: 47px 47px 80px #c3def7, -47px -47px 80px #c3def7;
+}
+
+.container3 {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 11%;
+  margin-right: 11%;
+}
+.container4 {
+  display: flex;
+  justify-content: space-between;
+}
+.container4-4 {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  top: 0px;
+  left: 800px;
+  right: 645px;
+}
+.container25 {
+  display: flex;
+  justify-content: space-between;
+}
+.imgdoctor2 {
+  margin-right: 100px;
+  margin-top: 200px;
+}
+.containercards2 {
+  margin-top: 310px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 70px;
+}
+.cards2 {
+  display: flex;
+  border-radius: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background: #ffffff;
+  border: 3px solid #edf0f3;
+  margin: 10px;
+  align-items: center;
+  width: 400px;
+  height: 40px;
+  justify-content: space-between;
+  padding-left: 20px;
+}
+#cardselected2 {
+  display: flex;
+  border-radius: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background: #ffffff;
+  border: 3px solid #edf0f3;
+  margin: 10px;
+  align-items: center;
+  width: 420px;
+  height: 200px;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.containercardselected {
+  display: flex;
+  align-items: center;
+  width: 380px;
+  justify-content: space-between;
+}
+
+.container9 {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 11%;
+  margin-right: 11%;
+  margin-top: 200px;
+}
+.container4-5 {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  top: 0px;
+  left: 80px;
+  right: 800px;
+}

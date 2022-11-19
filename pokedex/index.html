@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokédex</title>
+    <!--The conection wiht the ccs-->
+    >
+    <link rel="stylesheet" href="css\style.css" />
+  </head>
+  <body>
+    <!--This is the manin, which contains the pokedex and its components-->>
+    <main>
+      <!--This is the picture of the pokedex logo-->>
+      <img
+        src="https://upload.wikimedia.org/wikipedia/pt/7/77/Pokédex_3D_logo.png"
+        class="pokedexLogo"
+        alt="pokedex"
+      />
+      <!--This is the gif of the pokeball-->>
+      <img
+        src="https://thumbs.gfycat.com/DampSpanishCleanerwrasse-size_restricted.gif"
+        alt="pokemon"
+        class="pokemonImg"
+      />
+      <!--This h1 contains the pokemon info showed in the pokedex-->>
+      <h1 class="pokemonInfo">
+        <!--This label say what is the perk,name,type...etc fot the data received fot the span's-->>
+        <label for="">Id: </label>
+        <!--This is an span is like a son of the h1-->>
+        <span class="pokemonNum"></span> - <label for="">Nombre: </label>
+        <span class="pokemonNombre"></span>
+        <br />
+        <label for="">Tipo: </label>
+        <span class="pokemonType"></span>
+        <br />
+        <label for="">Habilidad: </label>
+        <span class="pokemonAbili"></span>
+        <br />
+        <label for="">Hp: </label>
+        <span class="pokemonStats"></span>
+        <br />
+        <label for="">Movimientos: </label>
+        <span class="pokemonMove"></span> - <span class="pokemonMove0"></span>
+      </h1>
+      <!--This is the form that contains the search box in the pokedex -->>
+      <form class="form">
+        <!--This is the search box -->>
+        <input
+          type="search"
+          class="inputBuscar"
+          placeholder="Nombre o Numero"
+          required
+        />
+      </form>
+      <!--This div contains the buttons for the stetic and simetry of the buttons positions -->>
+      <div class="buttons">
+        <button class="button btn-prev"><</button>
+        <button class="button btn-next">></button>
+      </div>
+      <!--This is the picture of the pokedex -->>
+      <img src="img\pokedex.png" alt="pokedex" class="pokedex" />
+    </main>
+  </body>
+  <!--The conection wiht the javascript -->>
+  <script src="js\main.js"></script>
+</html>
+<!--CODE CREATED BY GRAN J.-->

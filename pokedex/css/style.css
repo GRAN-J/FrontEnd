@@ -1,0 +1,104 @@
+/*This line import the font family fot the page*/
+@import url("https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap");
+/*This class modify the page*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Oxanium", cursive;
+}
+/*This class modify the body in html*/
+body {
+  text-align: center;
+  background-image: url(https://images4.alphacoders.com/574/574726.jpg);
+  min-height: 100vh;
+}
+/*This class contains the pokedex and the elements that show in the page*/
+main {
+  display: inline-block;
+  margin-top: 5%;
+  padding: 15px;
+  position: relative;
+}
+/*This class contain the picture of the pokedex*/
+.pokedex {
+  width: 100%;
+  max-width: 725px;
+}
+/*This class contain the picture of pokedex logo int the top of the page*/
+.pokedexLogo {
+  position: absolute;
+  bottom: 80%;
+  right: 75%;
+  width: 100%;
+  transform: translate(80%, -20%);
+  max-width: 725px;
+}
+/*This class is for the picture of a pokeball that change in the other pokemons*/
+.pokemonImg {
+  position: absolute;
+  bottom: 29%;
+  left: 30%;
+  transform: translate(0%, 20%);
+  height: 20%;
+}
+/*This class contain the spans inside the h1 */
+.pokemonInfo {
+  position: absolute;
+  font-weight: 600;
+  color: grey;
+  top: 57.6%;
+  left: 51%;
+  font-size: clamp(4px, 3vw, 11px);
+}
+/*This class contain the name of the pokemons with other color than the others spans in the h1*/
+.pokemonNombre {
+  color: #4c4b4b;
+  text-transform: capitalize;
+}
+/*This class is for the form that contains the search box*/
+.form {
+  position: absolute;
+  width: 49%;
+  top: 84%;
+  left: 29.3%;
+  transform: translate(0%, -20%);
+}
+/*This class contains the  box search*/
+.inputBuscar {
+  width: 100%;
+  padding: 2%;
+  border: 2px solid #4c4b4b;
+  border-radius: 5px;
+  font-weight: 600;
+  color: #323131;
+  font-size: clamp(5px, 2vw, 1rem);
+  box-shadow: -3px 4px 0 #454545, -5px 7px 0 #0c0c0c;
+}
+/*This class modify the buttons for next or previous in a box to modify the space of both buttons*/
+.buttons {
+  position: absolute;
+  bottom: 16.2%;
+  right: 2.8%;
+  width: 11%;
+  transform: translate(-5%, -2%);
+  display: flex;
+  gap: 48%;
+}
+/*This class modify the buttons*/
+.button {
+  width: 50%;
+  padding: 1%;
+  border: 2px solid rgb(220, 216, 216);
+  font-size: clamp(5px, 2vw, 1rem);
+  font-weight: 600;
+  background-color: #cfcccc;
+  border-radius: 2px;
+  box-shadow: -2px 3px 0 #999999, -4px 6px 0 rgb(106, 105, 105);
+}
+/*This class modifies the interaction with the buttons when they are active.*/
+.button:active {
+  box-shadow: inset -4px 4px 0 rgb(177, 172, 172);
+  font-size: 0.9rem;
+}
+/*CODE CREATED BY GRAN J.*/
