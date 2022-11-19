@@ -1,0 +1,49 @@
+/*Este es el font de la pagina en general*/
+*{
+    font-family: 'Roboto', sans-serif;
+    background-color: #fdecda;
+}
+
+/*el centrado de los h2*/
+.centrado{
+    text-align: center;
+}
+/*El estilo de todo el canvas*/
+.canvas{
+    max-width: 1200px;
+    margin: 10px auto;
+    padding: 75px;
+}
+/*este es el logo*/
+.contenedorlogo{
+    width: full;
+    height: 10px;
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: center;
+}
+/*centrado de la imagen logo*/
+.imagenlogo{
+    text-align: center
+}
+/*este es el contenedor de los productos en el almacen*/
+.contenedoralmacen{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    font-weight: 600;
+    padding-bottom: 100px;
+}
+
+/*los stilos de los links*/
+.links {text-decoration: none;
+    color: #838080;
+}
+
+/*Este es el contenedor del footer*/
+.contenedorfooter{
+    display: flex;
+    justify-content:center;
+    justify-content: space-around;
+    font-weight: 700;
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastelería</title>
+    <link rel="stylesheet" href="./pasteleria.css">
+</head>
+<body>
+<div class="canvas">
+    <!--Imagen logo-->
+    <section class="contenedorlogo">
+        <div class="imagenlogo"><img src="pasteleria.PNG" alt="pastelería"  width="100px" height="100px"></div>
+    </section>
+<!--Imagenes de los pasteles-->
+<h2 class="centrado">Pasteles</h2>
+<section class="pasteles">
+<div class="contenedorpasteles">
+    <img src="https://images.pexels.com/photos/691147/pexels-photo-691147.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="pastel de chocolate" width="300px" height="500px">
+    <img src="https://images.pexels.com/photos/3038302/pexels-photo-3038302.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="pastel de matrimonio" width="300px" height="500px">
+    <img src="https://images.pexels.com/photos/1721935/pexels-photo-1721935.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="pastel de frutas" width="300px" height="500px">
+    <img src="https://images.pexels.com/photos/2836443/pexels-photo-2836443.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="pastel de vainilla" width="300px" height="500px">
+</div>
+</section>
+<section>
+<form action="">
+<!--Precios de los pasteles-->
+<section class="pastelesprecios">
+    <div class="contenedorpastelesprecios">
+        <p>$50.000</p>
+        <p>$40.000</p>
+        <p>$20.000</p>
+        <p>$60.000</p>
+    </div>
+    </section>
+    <h2 class="centrado">Adornos</h2>
+<!--Adornos de los pasteles y sabores junto con  el formulario-->
+<section>
+<section class="Adornos">
+<!--Adornos de los pasteles-->
+    <div class="contenedoradornos">
+            <input type="checkbox" id="Chispitas" name="Chispitas" value="Chispitas">
+            <label for="Chispitas">Chispitas</label>
+            <input type="number" id="ChispitasNumber" name="ChispitasNumber" placeholder="¿Cuántas">
+            <br>
+            <input type="checkbox" id="Fresas" name="Fresas" value="Fresas">
+            <label for="Fresas">Fresas</label>
+            <input type="number" id="FresasNumber" name="FresasNumber" placeholder="¿Cuántas">
+    </div>
+<div class="contenedoradornos1">
+            <input type="checkbox" id="melocotones" name="melocotones" value="melocotones">
+            <label for="Melocotones">Melocotones</label>
+            <input type="number" id="MelocotonesNumber" name="MelocotonesNumber" placeholder="¿Cuántos">
+            <br>
+            <input type="checkbox" id="velas" name="velas" value="velas">
+            <label for="Velas">Velas</label>
+            <input type="number" id="VelasNumber" name="VelasNumber" placeholder="¿Cuántas">
+    </div>
+</section>
+<section>
+<!--Sabores de los pasteles-->
+    <h2 class="centrado">Sabores</h2>
+    <div class="contenedorsabores2">
+        <div class="contenedorsabores">
+            <input type="checkbox" id="melocotones" name="melocotones" value="melocotones">
+            <label for="Melocotones">Fresa</label>
+            <br>
+            <input type="checkbox" id="velas" name="velas" value="velas">
+            <label for="Velas">Mora</label>
+            <br>
+            <input type="checkbox" id="melocotones" name="melocotones" value="melocotones">
+            <label for="Melocotones">Chocolate</label>
+            <br>
+            <input type="checkbox" id="velas" name="velas" value="velas">
+            <label for="Velas">Vainilla</label>
+        </div>
+    </div>
+<!--Cantidad de pasteles-->
+    <div class="pastelesnumeros">
+        <select>
+            <option value="1 pastel">1 pastel</option>
+            <option value="2 pasteles">2 pasteles</option>
+            <option value="3 pasteles">3 pasteles</option>
+            <option value="4 pasteles">4 pasteles</option>
+            <option value="5 pasteles">5 pasteles</option>
+            <option value="6 pasteles">6 pasteles</option>
+        </select>
+    </div>
+<!--Formulario de envio-->
+    <h2 class="centrado">Completa el formulario para enviar tu pedido</h2>
+    <div class="enviarpedido">
+            <label for="Dirección"> Nombre:   </label><br>
+            <input type="text" name="Dirección" id="Dirección" placeholder="¿Como te llamas?">
+            <br>
+            <label for="Telefono"> Telefono:   </label><br>
+            <input type="text" name="Telefono" id="Telefono" placeholder="¿Como es tu Teléfono?">
+            <br>
+            <label for="Dirección"> Dirección:   </label><br>
+            <input type="text" name="Dirección" id="Dirección" placeholder="¿A donde lo mandamos?">
+            <label for="Dirección"> Correo Electrónico:</label><br>
+            <input type="email" name="Correo" id="Correo" placeholder="¿Cual es tu correo electrónico?">
+            <br>
+            <button type="submit"> Enviar pedido</button>
+    </div>
+</section>
+</form>
+</section>
+</div>
+</body>
+<!--Footer con la información como dirección y telefono-->
+<footer>
+    <section>
+        <div class="contenedorfooter">
+            <table>
+                <tr>
+                    <th>Pastelería yikes</th>
+                    <th><a class="links" href="https://goo.gl/maps/1Zxh8dgQabi2snpF6" target="_blank">Ak 68 #37 Sur-37, Bogotá</a></th>
+                    <th>L - D 10 am - 8 pm </th>
+                </tr>
+            </table>
+            <p>Telefono</p>
+        <p>3133174856</p>
+    </section>
+    </footer>
+</html>

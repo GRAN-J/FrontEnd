@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/*Este es el font de la pagina en general*/
+
+*{
+    font-family: 'Roboto', sans-serif;
+    background-color: #fdecda;
+}
+
+/*el centrado de los h2*/
+.centrado{
+    text-align: center;
+}
+/*los stilos de los links*/
+.links {text-decoration: none;
+    color: #838080;
+}
+/*El estilo de todo el canvas*/
+.canvas{
+    max-width: 1200px;
+    margin: 10px auto;
+    padding: 75px;
+}
+/*este es el logo*/
+.contenedorlogo{
+    width: full;
+    height: 10px;
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: center;
+}
+/*centrado de la imagen logo*/
+.imagenlogo{
+    text-align: center
+}
+
+/*este es el contenedor de los pasteles*/
+.contenedorpasteles{
+    display: flex;
+    justify-content:center;
+    margin: 10px;
+}
+
+/*este es el contenedor de los precios*/
+.contenedorpastelesprecios{
+    display: flex;
+    justify-content:center;
+    justify-content: space-around;
+    margin: 10px;
+    font-weight: 700;
+}
+
+/*este es el contenedor de los adornos fila 1*/
+.contenedoradornos{
+    display: flex;
+    justify-content:center;
+    justify-content: space-around;
+    margin: 10px;
+    font-weight: 700;
+}
+
+/*este es el contenedor de los adornos fila 2*/
+.contenedoradornos1{
+    display: flex;
+    justify-content:center;
+    justify-content: space-around;
+    margin: 10px;
+    font-weight: 700;
+}
+
+/*este es el contenedor de los sabores*/
+.contenedorsabores{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    font-weight: 700;
+}
+
+/*este es el contenedor de la cantidad de pasteles*/
+.pastelesnumeros{
+    display: flex;
+    justify-content:center;
+    margin: 10px;
+    font-weight: 700;
+}
+
+/*este es el contenedor del formulario de envio*/
+.enviarpedido{
+    display: flex;
+    justify-content:center;
+    justify-content: space-around;
+    margin: 10px;
+    font-weight: 700;
+}
+/*Este es el contenedor del footer*/
+.contenedorfooter{
+    display: flex;
+    justify-content:center;
+    justify-content: space-around;
+    font-weight: 700;
+}
